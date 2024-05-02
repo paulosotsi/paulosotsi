@@ -1,0 +1,43 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    background-color: whitesmoke;
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border-radius: 20px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#form h1{
+    margin-top: 20px;
+}
+
+#form input{
+    width: 270px;
+    height: 25px;
+    border: none;
+}
+
+#button{
+    background-color: white;
+    width: 100px;
+    border-radius: 20px;
+    color: blue;
+}
+#button:hover{
+    background-color: black;
+}
+
+#form p a{
+    text-decoration: none;
+}
